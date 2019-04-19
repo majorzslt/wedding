@@ -204,3 +204,18 @@ a:hover {
 
 
 
+/*-------------------------
+          GIFTS
+-------------------------*/
+
+
+
+/* img size */
+.gifts img {
+  height: 7rem;
+}
+
+/* remove extra bottom margin */
+.gifts p:last-child {
+  margin-bottom: 0;
+}
