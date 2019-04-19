@@ -236,8 +236,7 @@ a:hover {
   color: #d2ba87;
  }
 
- 
-/* text align an top margin for h2 */
+ /* text align an top margin for h2 */
 .faq h2, h3 {
   text-align: center;
 }
@@ -245,7 +244,6 @@ a:hover {
 .faq h2 {
   line-height: 3.5rem;
 }
-
 
 /* horizontal line after every section */
 .group::after {
@@ -257,7 +255,6 @@ a:hover {
   margin: 1.5rem auto;
 }
 
-
 /* group questions with answers */
 .question {
   font-weight: 800;
@@ -268,9 +265,38 @@ a:hover {
   margin-bottom: 1.5rem;
 }
 
-
 /* wrapper for faq section*/
 .faq-wrapper {
   display: table-cell;
   padding: 1rem;
+}
+
+
+
+/*-------------------------
+          FOOTER
+-------------------------*/
+
+
+/* footer default values */
+footer {
+  display: table;
+  height: 10vh;
+  width: 100vw;
+  text-align: center;
+  padding: 1rem;
+  font-size: .875rem;
+  background-color: #606060;
+  color: #fff;
+}
+
+.footer-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  padding: .5rem 1rem
+}
+
+/* remove margin bottom */
+footer p {
+  margin-bottom: 0;
 }
