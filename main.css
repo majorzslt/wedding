@@ -169,3 +169,38 @@ a:hover {
   width: 25vw;
   margin: 1.5rem auto;
 }
+
+
+
+/*-------------------------
+          PROGRAM
+-------------------------*/
+
+
+
+/* width 100% vw, text aling and background  */ 
+.program  {
+  width: 100vw;
+  text-align:left;
+  background: hsla(100,0%,0%, .6);
+  color: #d2ba87;
+  font-family: 'Muli', sans-serif;
+}
+
+/* text align an top margin for h2 */
+.program h2 {
+  text-align: center;
+ }
+
+/* italic tagline */
+.program p {
+  font-style: italic;
+}
+
+/* wrapper from program section */
+.program-wrapper {
+  padding: 1rem;
+ }
+
+
+
