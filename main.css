@@ -132,3 +132,40 @@ a:hover {
   margin: 0 .5rem
 }
 
+
+
+/*-------------------------
+          LOCATIONS
+-------------------------*/
+
+
+
+/* img size */
+.locations img {
+  height: 7rem;
+}
+
+/* bold headers */
+.locations h3 {
+  font-weight: 700;
+}
+
+/* font family */
+.locations div {
+  font-family: 'Muli', sans-serif;
+}
+
+/* location icon */
+.location_icon {
+  filter: grayscale(100%);
+}
+
+/* horizontal line after every section */
+.location::after {
+  display: block;
+  content: "";
+  background-color: #444349;
+  height: .2rem;
+  width: 25vw;
+  margin: 1.5rem auto;
+}
