@@ -1,0 +1,57 @@
+/*-------------------------
+          GENERAL
+-------------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Single direction margin declaration */ 
+h1,h2,h3,ul,ol,p,img {
+  margin-bottom: 2rem;
+} 
+
+/* Set default size for containers */
+.locations, .program, .gifts, .faq, .contact, .footer {
+  width: 95%;
+  margin: 1.5rem auto;
+  padding: .5rem 1rem;
+  text-align: center;
+}
+
+/* Set default background image, font, size and text color */
+body {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  color: #444349;
+}
+
+/* Set default font family for h1 and h2 */
+h1, h2 {
+  font-family: 'Great Vibes', cursive;
+}
+
+
+/* h2 and h3 font size */
+h2 {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+h3 {
+   font-size: 1.5rem;
+}
+
+
+/* links color and hover */
+a { 
+ text-decoration: none;
+ color: #bd806e; 
+}
+
+a:hover {
+  color: #eda087;
+  transition: color .20s ease-in-out;
+}
