@@ -80,7 +80,7 @@ a:hover {
   background: url('assets/wedding-landing-cover.jpg') no-repeat 70% center;
   background-size: cover;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   text-align: center;
   display: table;
 }
@@ -107,7 +107,7 @@ a:hover {
 @media (min-width: 768px) {
   .header-text {
     padding: 1.25rem;
-    width: 50vw;
+    width: 50%;
     border-radius: 5px;
   }
 }
@@ -218,7 +218,7 @@ a:hover {
   content: "";
   background-color: #444349;
   height: .2rem;
-  width: 25vw;
+  width: 25%;
   margin: 1.5rem auto;
 }
 
@@ -245,7 +245,7 @@ a:hover {
 
 /* width 100% vw, text aling and background  */
 .program {
-  width: 100vw;
+  width: 100%;
   text-align: left;
   background: hsla(100, 0%, 0%, .6);
   color: #d2ba87;
@@ -269,7 +269,7 @@ a:hover {
 
 @media (min-width: 768px) {
   .program-wrapper {
-    width: 30vw;
+    width: 30%;
     margin: 0 auto;
   }
 
@@ -303,7 +303,7 @@ a:hover {
 
 /* width 100% vw, text aling and background  */
 .faq {
-  width: 100vw;
+  width: 100%;
   text-align: left;
   background: hsla(100, 0%, 0%, .6);
   color: #d2ba87;
@@ -325,7 +325,7 @@ h3 {
   content: "";
   background-color: #d2ba87;
   height: .1875rem;
-  width: 50vw;
+  width: 50%;
   margin: 1.5rem auto;
 }
 
@@ -374,7 +374,7 @@ h3 {
 footer {
   display: table;
   height: 10vh;
-  width: 100vw;
+  width: 100%;
   text-align: center;
   padding: 1rem;
   font-size: .875rem;
