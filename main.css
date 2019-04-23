@@ -304,9 +304,13 @@ a:hover {
 /* width 100% vw, text aling and background  */
 .faq {
   width: 100%;
-  text-align: left;
+  text-align: center;
   background: hsla(100, 0%, 0%, .6);
   color: #d2ba87;
+}
+
+.faq p {
+  text-align: left;
 }
 
 /* text align an top margin for h2 */
